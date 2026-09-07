@@ -6,3 +6,26 @@ html {
   justify-content: center;
   height: 100%;
 }
+
+.boxes-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+}
+
+.box1 {
+  background: #ff5e57;
+}
+.box2 {
+  background: #0be881;
+}
+.box3 {
+  background: #00d8d6;
+}
